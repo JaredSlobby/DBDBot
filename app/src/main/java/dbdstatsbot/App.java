@@ -35,9 +35,9 @@ import discord4j.core.object.component.SelectMenu;
 import discord4j.core.object.entity.Guild;
 
 public class App {
-	private static final String STEAM_API_KEY = "18D3FD27216D77CF6AA3B87E0C31800F";
+	private static final String STEAM_API_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 	private static final String STEAM_API_PLAYER_COUNT = "https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/?appid=381210";
-	static String token = "MTA5MjgxNjc3NDM1MDc2NjA5MA.G_juwj.GFdJkG0v5snuVTQuTHXZAAcyrLAy4W_GsV1ndI";
+	static String token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 	static DiscordClient client = DiscordClient.create(token);
 	static GatewayDiscordClient gateway = client.login().block();
 	static int appId = 381210;
